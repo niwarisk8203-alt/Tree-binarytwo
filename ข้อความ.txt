@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Tree Structure Visualization</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background: #f4f4f4; }
+        .tree { display: flex; flex-direction: column; align-items: center; margin-top: 50px; }
+        .node { background: #4CAF50; color: white; padding: 10px 20px; border-radius: 50%; margin: 10px; }
+        .children { display: flex; justify-content: center; }
+    </style>
+</head>
+<body>
+    <h1>โครงสร้างข้อมูลแบบ Trees (Midterm 1)</h1>
+    <div class="tree">
+        <div class="node">Root (A)</div>
+        <div class="children">
+            <div>
+                <div class="node">Left Child (B)</div>
+                <div class="children">
+                    <div class="node">Leaf (D)</div>
+                    <div class="node">Leaf (E)</div>
+                </div>
+            </div>
+            <div>
+                <div class="node">Right Child (C)</div>
+                <div class="node">Leaf (F)</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
